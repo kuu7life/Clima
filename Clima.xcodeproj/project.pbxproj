@@ -13,6 +13,8 @@
 		D584D60E2819278D00B48046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D584D60C2819278D00B48046 /* Main.storyboard */; };
 		D584D6102819279000B48046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D584D60F2819279000B48046 /* Assets.xcassets */; };
 		D584D6132819279000B48046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D584D6112819279000B48046 /* LaunchScreen.storyboard */; };
+		D584D61C2819295D00B48046 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D584D61B2819295D00B48046 /* dark_background.pdf */; };
+		D584D61E2819296600B48046 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D584D61D2819296600B48046 /* light_background.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D584D60F2819279000B48046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D584D6122819279000B48046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D584D6142819279000B48046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D584D61B2819295D00B48046 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
+		D584D61D2819296600B48046 /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = light_background.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				D584D6062819278D00B48046 /* AppDelegate.swift */,
 				D584D6082819278D00B48046 /* SceneDelegate.swift */,
 				D584D60A2819278D00B48046 /* ViewController.swift */,
-				D584D60C2819278D00B48046 /* Main.storyboard */,
+				D584D61A2819293B00B48046 /* View */,
 				D584D60F2819279000B48046 /* Assets.xcassets */,
 				D584D6112819279000B48046 /* LaunchScreen.storyboard */,
 				D584D6142819279000B48046 /* Info.plist */,
+				D584D61B2819295D00B48046 /* dark_background.pdf */,
+				D584D61D2819296600B48046 /* light_background.pdf */,
 			);
 			path = Clima;
+			sourceTree = "<group>";
+		};
+		D584D61A2819293B00B48046 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D584D60C2819278D00B48046 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D584D61E2819296600B48046 /* light_background.pdf in Resources */,
+				D584D61C2819295D00B48046 /* dark_background.pdf in Resources */,
 				D584D6132819279000B48046 /* LaunchScreen.storyboard in Resources */,
 				D584D6102819279000B48046 /* Assets.xcassets in Resources */,
 				D584D60E2819278D00B48046 /* Main.storyboard in Resources */,
